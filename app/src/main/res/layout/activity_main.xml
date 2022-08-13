@@ -1,0 +1,19 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/topAppBarmain"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    app:title="Todo... !"
+    style="@style/Widget.MaterialComponents.Toolbar.Primary"
+    />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="59dp"
+            android:id="@+id/rv"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mcview"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/white"
+    app:cardElevation="222dp"
+    android:layout_margin="9dp"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fl"
+        android:background="#4CAF50">
+        <LinearLayout
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_width="match_parent"
+            android:background="#DCD6D6"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_baseline_access_time_filled_24"
+                android:id="@+id/statusicon"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/todo_layout_task_title"
+                    android:text="Studyingg"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:typeface="serif"
+                    android:padding="1dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="02:15 pm"
+                    android:layout_weight="4"
+                    android:id="@+id/todo_layout_task_time"
+                    android:background="#A5A2A2"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="13sp"
+                    />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/todo_layout_task_descp"
+                android:text="this is my task description i want to stuyb
+ s my task description i want to stuyb dh hj sadfvjh
+jhbsh jhjbjhbasdkjsk kaeavh"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:typeface="sans"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12-02-2022"
+                android:id="@+id/todo_layout_task_date"
+                android:textSize="15sp"
+                android:gravity="end"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="skdksa"
+                android:visibility="gone"
+                android:id="@+id/invisiblebtn"
+                android:layout_gravity="center"
+                />
+
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

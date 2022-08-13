@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/search"
+        android:title="search"
+        android:contentDescription="content_description_more"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/newtask"
+        android:title="New task"
+        android:contentDescription="content_description_more"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dunno"
+        android:title="About"
+        android:contentDescription="content_description_more"
+        app:showAsAction="never" />
+</menu>
